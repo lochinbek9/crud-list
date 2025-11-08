@@ -1,0 +1,1 @@
+Bu shunchaki oddiy loyiha
