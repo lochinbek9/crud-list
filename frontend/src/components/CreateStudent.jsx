@@ -10,8 +10,7 @@ const CreateStudent = () => {
   });
 
   const onSubmit = (studentObject, { resetForm }) => {
-    axios
-      .post("http://localhost:4000/students", studentObject)
+    axios.post("http://localhost:4000/students", studentObject)
       .then((res) => {
         if (res.status === 200) {
           alert("Student successfully created");
